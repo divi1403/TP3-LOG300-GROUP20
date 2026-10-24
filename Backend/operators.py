@@ -41,4 +41,4 @@ Exception :
 	ZeroDivisionError : Si le dénominateur est égal à zero
 """
 def divide(a,b):
-    return a // b
+    return a / b

@@ -35,6 +35,7 @@ class TestCalculatorOperators(unittest.TestCase):
         """Vérifie le bon fonctionnement de la division et la gestion des erreurs."""
         # 10 / 2 doit retourner 5.0 (met en évidence le bogue potentiel de la division entière //)
         self.assertEqual(divide(10, 2), 5.0)
+        self.assertEqual(divide(7, 2), 3.5)
         
         # Vérification de la levée d'une exception en cas de division par zéro
         with self.assertRaises(ZeroDivisionError):
