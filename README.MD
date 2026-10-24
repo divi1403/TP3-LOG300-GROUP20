@@ -77,13 +77,10 @@ pip install -r requirements.txt
 ## 5. Section Tests
 
 Pour garantir la fiabilité de la base de code et valider les correctifs de bogues :
-1. Assurez-vous d'avoir installé les outils de test (ex: `pytest`).
-2. Exécutez la suite de tests unitaires depuis la racine du projet :
+ Exécutez la suite de tests unitaires depuis le dossier racine du projet :
    ```bash
-   pytest
+   python -m unittest tests/test_operator.py tests/test_app.py
    ```
-*(Note : Les fichiers de test dédiés pour les opérateurs et le parseur s'enrichiront au fil des sprints).*
-
 ---
 
 ## 6. Flux de contribution (Workflow Git)
