@@ -19,7 +19,7 @@ Returns :
 	float: La différence a de b
 """
 def subtract(a,b):
-    return b - a  
+    return a - b  
 """ 
 Multiplier deux nombres entre eux et retourne le produit
 Args  : 
