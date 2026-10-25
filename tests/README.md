@@ -6,7 +6,7 @@ Ce module de tests a pour objectif de valider automatiquement le comportement de
 ---
 
 ## 2. Fichiers inclus
-* **`test_calculator.py`** : Contient les cas de test unitaires et d'intégration pour :
+* **`test_operator.py`** : Contient les cas de test unitaires et d'intégration pour :
   * Les fonctions mathématiques de base (`add`, `subtract`, `multiply`, `divide`).
   * L'analyseur d'expressions (`calculate`) de l'application Flask.
 
