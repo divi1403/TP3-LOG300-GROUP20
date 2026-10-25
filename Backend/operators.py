@@ -29,7 +29,7 @@ Returns :
 	float :  le produit de la multiplication
 """
 def multiply(a,b):
-    return a ** b
+    return a * b
 """ 
 Divise le premier nombre par le deuxieme et le retourne le quotient
 Args  : 
