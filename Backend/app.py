@@ -49,6 +49,8 @@ def calculate(expr: str):
 
     # Parcours de la chaîne pour identifier l'opérateur unique
     for i, ch in enumerate(s):
+        if ch == '-' and (i == 0 or s[i - 1] in OPS):
+            continue
         if ch in OPS:
             if op_pos != -1:
                 raise ValueError("only one operator is allowed")
