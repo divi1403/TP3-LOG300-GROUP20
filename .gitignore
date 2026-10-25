@@ -1,0 +1,24 @@
+#Ce fichier liste tout les fichier qui ne devrait pas etre present sur git
+
+#Fichier compilés de python
+__pycache__/
+*.py[cod]
+
+# Environnement virtuel (recréé avec pip install -r requirements.txt)
+venv/
+.venv/
+env/
+
+# Fichiers générés par les tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Variables d'environnement locales (secrets)
+.env
+
+# Fichiers d'éditeur et de système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -8,7 +8,10 @@ from flask import Flask, request, render_template
 from operators import add, subtract, multiply, divide
 
 # Initialisation de l'application Flask et configuration du template
-app = Flask(__name__,template_folder='../Frontend/templates')
+app = Flask(
+    __name__,
+    template_folder='../Frontend/templates', 
+    static_folder='../Frontend/static')
 
 # Dictionnaire associant chaque symbole d'opération à sa fonction correspondante
 OPS = {
